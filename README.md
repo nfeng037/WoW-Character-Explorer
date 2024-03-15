@@ -24,15 +24,19 @@ This Rails application serves as a comprehensive platform for exploring the vast
    ```bash
    bundle install
    ```
-3. Setup the database:
+3. Install Tailwind
+   ```bash
+   ./bin/rails tailwindcss:install
+   ```
+4. Setup the database:
    ```bash
    rails db:create db:migrate db:seed
    ```
-4. Start the server:
+5. Start the server:
    ```bash
    rails server
    ```
-5. Visit `http://localhost:3000` in your web browser to explore the application.
+6. Visit `http://localhost:3000` in your web browser to explore the application.
 
 ## Usage
 
